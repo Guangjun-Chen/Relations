@@ -1,0 +1,6 @@
+framework module Pods_Relations_Example {
+  umbrella header "Pods-Relations_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

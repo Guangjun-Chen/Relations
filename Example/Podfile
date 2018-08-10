@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Relations_Example' do
+  pod 'Relations', :path => '../'
+
+  target 'Relations_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,6 @@
+framework module Relations {
+  umbrella header "Relations-umbrella.h"
+
+  export *
+  module * { export * }
+}
